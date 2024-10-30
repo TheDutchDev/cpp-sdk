@@ -20,7 +20,7 @@ namespace alt
 		virtual std::string GetSocialName() const = 0;
 		virtual uint64_t GetHwIdHash() const = 0;
 		virtual uint64_t GetHwIdExHash() const = 0;
-		virtual std::string GetHwIdProtHash() const = 0;
+		virtual std::string Gethwid3() const = 0;
 		virtual std::string GetAuthToken() const = 0;
 		virtual bool GetIsDebug() const = 0;
 		virtual std::string GetBranch() const = 0;
